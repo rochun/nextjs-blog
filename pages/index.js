@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Link from 'next/link';
 import Layout, { siteTitle } from '../components/layout';
 import utilStyles from '../styles/utils.module.css';
 
@@ -13,6 +14,7 @@ export default function Home() {
         <p>
           Currently, I am looking for full-stack engineering opportunities.
         </p>
+      <Link href='/posts/first-post'>First blog post</Link>
       </section>
     </Layout>
   );
